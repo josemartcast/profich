@@ -31,7 +31,15 @@ buildNumber.properties
 build/
 !gradle/wrapper/gradle-wrapper.jar
 
-# IntelliJ IDEA
+# Android
+local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+*.apk
+*.aab
+
+# IntelliJ IDEA and Android Studio
 .idea/
 *.iws
 *.iml
@@ -58,6 +66,10 @@ Thumbs.db
 application-local.properties
 application-local.yml
 application-local.yaml
+
+# H2 development databases
+*.mv.db
+*.trace.db
 
 # Logs
 *.log
